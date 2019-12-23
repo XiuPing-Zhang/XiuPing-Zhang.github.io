@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 愣头青张三
+title: 驰骥
 subtitle:
 description:
 keywords:
-author: Mr.Zhang
+author: 驰骥
 language: en
 timezone:
 
@@ -40,7 +40,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace:
   

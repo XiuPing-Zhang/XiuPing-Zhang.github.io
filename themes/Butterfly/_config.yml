@@ -5,15 +5,16 @@
 # xxx || icon:
 #   xxx || 連結 || icon
 menu:
-  Home: / || fa fa-home
-  Archives: /archives/ || fa fa-archive
-  Tags: /tags/ || fa fa-tags
-  Categories: /categories/ || fa fa-folder-open
-  Link: /link/ || fa fa-link
-  About: /about/ || fa fa-heart
-  List||fa fa-list:
-    - Music || /music/ || fa fa-music
-    - Movie || /movies/ || fa fa-film
+  主页: / || fa fa-home
+  技术文章: /archives/ || fa fa-archive
+  人生剧场||fa fa-list:
+    - 人生经验 || /experience/ || fa fa-music
+    - 未来规划 || /future/ || fa fa-film
+  生活姿态: /life/ || fa fa-folder-open
+  # Link: /link/ || fa fa-link
+  项目展示: /project/ || fa fa-heart
+  简历: /resume/ || fa fa-tags
+
 
 # Favicon
 # ---------------
@@ -38,7 +39,7 @@ highlight_copy: true #代碼複製按鈕
 highlight_lang: true #代碼語言顯示
 highlight_shrink: false # true 全部代碼框不展開，需點擊 '>' 打開 / false 代碼框展開，有'>'點擊按鈕 | none 代碼框展開，不顯示 '>' 按鈕
 
-code_word_wrap: false
+code_word_wrap: true
 
 # copy setting
 # 是否禁止複製（如果禁止，highlight_copy的功能將無效)
@@ -52,8 +53,8 @@ copy:
 #   icon: link
 # ---------------
 social:
-  fa fa-github: https://github.com/jerryc127
-  fa fa-envelope: mailto:xxxxxxxx@gmail.com
+  fa fa-github: https://github.com/XiuPing-Zhang
+  fa fa-envelope: mailto:zhangxiuping178@aliyun.com
   fa fa-rss: /atom.xml
 
 ####    search    ####
@@ -101,25 +102,25 @@ katex:
 avatar: /img/avatar.png
 
 # the banner image of index
-index_img: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/index.jpg
+index_img: /img/index.jpg
 
 # if the banner of page not setting,it will show the top_img
-default_top_img: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/index.jpg
+default_top_img: /img/index.jpg
 
 # the default cover of the post
-default_cover: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/default.png
+default_cover: /img/cloud.jpg
 
 # the banner image of archive page
-archive_img: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/archive.jpg
+archive_img: /img/cloud.jpg
 
 # the banner image of tag page
-tag_img: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/tag.png
+tag_img: /img/tree.jpg
 
 # the banner image of category page
-category_img: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/category.jpg
+category_img: /img/joker.jpg
 
 # 如果你有使用hexo-douban去生成movie界面，可配置這個
-movies_img: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/movie.jpg
+movies_img: /img/joker-right.jpg
 
 # if the photo link cannot connect,it will show that
 lodding_bg:
@@ -287,7 +288,7 @@ reward:
 # 推薦文章
 related_post:
   enable: true
-  limit: 6 # 顯示推薦文章數目
+  limit: 5 # 顯示推薦文章數目
   date_type: created # or created or updated 文章日期顯示创建日或者更新日
 
 ####    美化/效果    ####
@@ -441,8 +442,8 @@ subtitle:
   source: false
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   sub:
-    - 今日事&#44;今日畢
-    - Never put off till tomorrow what you can do today
+    - 认真&#44;学习&#44;思考&#44;执行
+    - earnest&#44;study&#44;ponder&#44;implement
 
 ####    側邊欄    ####
 #-------------------------------------
@@ -456,13 +457,13 @@ aside:
   card_announcement: true
   card_recent_post: true
   card_categories: true
-  card_tags: true
-  card_archives: true
+  card_tags: false
+  card_archives: false
   card_webinfo: true
 
 # 網站公告
 announcement:
-  content: 感謝訪問本站，若喜歡請收藏 ^_^
+  content: 感谢访问本网站，喜欢请收藏~
 
 # busuanzi count for PV / UV in site
 # 訪問人數
@@ -476,7 +477,7 @@ busuanzi:
 # 也可以寫成 年/月/日 時間
 runtimeshow:
   enable: true
-  start_date: 6/7/2018 00:00:00
+  start_date: 2018/7/6 00:00:00
 
 ####   右下角按鈕  ####
 #----------------------------------------------
