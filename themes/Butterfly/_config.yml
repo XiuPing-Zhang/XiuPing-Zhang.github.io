@@ -217,10 +217,10 @@ valine:
 # ------------------------------------
 since: 2019
 
-footer_custom_text:
+footer_custom_text: 欢迎来到驰骥的个人博客
 
 footer_copyright:
-  enable: true
+  enable: false
 
 ICP:
   enable: false
